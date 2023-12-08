@@ -5,7 +5,8 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1.5em 10em;
   align-content: center;
-  border: thin solid black;
+
+  /* border: thin solid black; */
   box-sizing: border-box;
   min-height: 100vh;
 }
