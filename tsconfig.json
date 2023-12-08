@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "lib": [
+      "ES2015",
+      "DOM",
+      "ES2016"
+    ]
+  },
+  "include": [
+    "globals.d.ts",
+    "src/**/*",
+    "./esbuild.*"
+  ]
+}
